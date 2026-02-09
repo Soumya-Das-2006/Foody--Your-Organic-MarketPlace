@@ -1,55 +1,47 @@
 # 🥗 Foody – Your Organic Food Marketplace
 
-Foody is a web-based **online organic food marketplace** that connects consumers with local farmers and organic food producers.  
-The platform enables users to browse, search, and purchase fresh organic products securely while supporting sustainable agriculture.
+Foody is an online marketplace designed to connect consumers with local farmers and organic food producers.  
+It provides a simple, secure, and user-friendly platform to browse, purchase, and receive fresh organic products directly at home.
 
 ---
 
-## 📌 Project Overview
+## 🌿 Overview
 
-- **Project Name:** Foody – Your Organic Food Marketplace  
-- **Project Type:** Web-Based E-Commerce Application  
-- **Academic Year:** 2024–2025  
-- **Course:** Integrated Master of Computer Applications (IMCA – Semester II)  
-- **Institution:** Parul Institute of Computer Application, Parul University  
+Foody focuses on promoting healthy eating and sustainable agriculture by offering:
+- Fresh organic fruits and vegetables
+- Locally sourced natural products
+- Secure online ordering
+- Smooth user experience from browsing to checkout
 
----
-
-## 🎯 Project Objectives
-
-- Provide a centralized online platform for organic food buying and selling  
-- Enable secure user registration and authentication  
-- Allow sellers to upload and manage organic products  
-- Provide customers with an easy shopping and checkout experience  
-- Support sustainable farming and local producers  
+The platform supports multiple user roles including customers, sellers, and administrators.
 
 ---
 
-## 🧩 Key Features
+## ✨ Features
 
 ### 👤 User Features
 - User registration and login
-- Browse organic products by category
+- Browse products by category
 - Search and filter products
-- Add products to cart
-- Secure checkout process
-- Order confirmation via email
+- Add to cart and manage orders
+- Secure checkout
+- Order confirmation
 
 ### 🛒 Seller Features
 - Seller dashboard
-- Product upload with images
-- Inventory management
-- Order tracking
+- Upload and manage products
+- Track orders
+- Manage inventory
 
 ### 🛠️ Admin Features
 - Manage users and sellers
-- Add, edit, and delete products
+- Manage products and categories
 - Monitor orders and messages
-- Website content management
+- Full platform control
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML5
@@ -65,53 +57,37 @@ The platform enables users to browse, search, and purchase fresh organic product
 
 ### Tools
 - XAMPP
-- Sublime Text / VS Code
+- VS Code / Sublime Text
 - MySQL Workbench
 - GitHub
 
 ---
 
-## 🗄️ Database Structure
-
-Main tables used in the project:
-- `users`
-- `categories`
-- `products`
-- `orders`
-- `order_items`
-- `messages`
-- `admin_logs`
----
-
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install Required Software
-- XAMPP
-- Web Browser (Chrome / Firefox)
-
-### 2️⃣ Clone the Repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/foody.git
 ````
 
-### 3️⃣ Move Project to XAMPP
+### 2. Move project to XAMPP
 
 ```text
 C:/xampp/htdocs/foody
 ```
 
-### 4️⃣ Start Server
+### 3. Start the server
 
 * Open XAMPP Control Panel
 * Start **Apache** and **MySQL**
 
-### 5️⃣ Import Database
+### 4. Setup database
 
 * Open `phpMyAdmin`
-* Create database: `foody`
-* Import provided `.sql` file
+* Create a database (e.g., `foody`)
+* Import the SQL file
 
-### 6️⃣ Run the Project
+### 5. Run the project
 
 ```text
 http://localhost/foody
@@ -119,49 +95,85 @@ http://localhost/foody
 
 ---
 
-## 🧪 Testing
+## 🗄️ Database Overview
 
-* Unit Testing
-* Functional Testing
-* Integration Testing
-* Load & Stress Testing
-* User Acceptance Testing (UAT)
+Main tables used:
 
-All major modules were tested and validated successfully.
+* users
+* categories
+* products
+* orders
+* order_items
+* messages
 
 ---
 
-## 📈 Future Enhancements
+## 🔒 Security & Validation
 
-* Mobile application (Android & iOS)
+* Password hashing
+* Session-based authentication
+* Input validation (client & server side)
+* SQL injection prevention using prepared statements
+
+---
+
+## 📈 Future Improvements
+
+* Mobile application (Android / iOS)
 * AI-based product recommendations
-* Real-time order tracking
-* Loyalty & reward system
+* Real-time delivery tracking
+* Loyalty and reward system
 * Multi-language support
-* Voice search functionality
+* Voice search
 
 ---
 
-## 🌱 Social & Environmental Impact
+## 🌍 Impact
 
+* Encourages healthy lifestyle
 * Supports local farmers
-* Promotes organic and healthy food
-* Reduces carbon footprint
-* Encourages sustainable consumption
+* Promotes sustainable food systems
+* Reduces unnecessary supply-chain overhead
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated 🚀  
+
+You can contribute by:
+- Improving UI/UX
+- Optimizing backend logic
+- Adding new features
+- Fixing bugs or security issues
+- Improving documentation
+
+### Contribution Rules
+- Fork the repository
+- Create a new branch for your feature or fix
+- Submit a pull request with a clear description
+- Give proper credit to the original project
 
 ---
 
 ## 📜 License
 
-This project is developed **for academic and educational purposes only**.
-Free to use for learning and reference.
+Copyright © 2026 Soumya Das
+
+This project is owned and maintained by the author.  
+You are free to:
+- Use the code
+- Modify it
+- Contribute improvements
+
+Under the following conditions:
+- Proper credit must be given to the original author
+- The original license must be included
+- The author holds primary ownership of the project
+
+This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Acknowledgement
+⭐ If you find this project useful, feel free to star the repository!
 
-We sincerely thank our faculty, guide, and institution for their guidance and support throughout this project.
-
----
-
-### ⭐ If you like this project, don’t forget to give it a star!
